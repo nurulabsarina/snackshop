@@ -1,0 +1,104 @@
+
+/* Sidebar */
+.sidebar {
+    background: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+    padding: 0;
+    position: fixed;
+    width: 250px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    background: #ff7b00;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-header h3 {
+    color: #1a1a1a;
+    margin: 0;
+    font-weight: bold;
+}
+
+.sidebar-header p {
+    color: #1a1a1a;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.sidebar-nav {
+    padding: 20px 0;
+}
+
+.sidebar-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 5px 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.sidebar-nav a:hover {
+    background: #ff7b00;
+    color: #1a1a1a;
+    transform: translateX(5px);
+}
+
+/* Active page highlight */
+.sidebar-nav a.active {
+    background: #ff7b00;
+    color: #1a1a1a;
+    font-weight: bold;
+    transform: translateX(5px);
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    background: #fff7ed;
+    min-height: 100vh;
+}
+
+/* Cards */
+.orange-card {
+    background: linear-gradient(135deg, #ff7b00, #ffaa00);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(255, 123, 0, 0.3);
+}
+
+.orange-card .card-body {
+    padding: 25px;
+}
+
+.kpi-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.btn-orange {
+    background: #ff7b00;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-orange:hover {
+    background: #1a1a1a;
+    color: #ff7b00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000;
+    color: #fff;
+}

@@ -30,7 +30,6 @@ This system reflects modern web development practices, focusing on usability, co
 
 1. Download/Clone the Project:
    - Download the ZIP file from the repository
-   - Or clone using Git: `git clone [repository-url]`
 
 2. Setup in XAMPP:
    - Extract/copy the project folder to: `C:/xampp/htdocs/`
@@ -108,4 +107,5 @@ This project is developed for educational purposes as part of IMS566 coursework.
 
 - Bootstrap 5 for responsive design
 - Chart.js for data visualizations
+
 - Inspiration from modern admin dashboard structures

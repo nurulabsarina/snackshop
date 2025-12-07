@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
-    header("Location: index.php");
+    header("Location: login.php");
     exit;
 }
 require 'conn/db.php';
@@ -132,3 +132,4 @@ foreach($top_products as $p) {
 </body>
 
 </html>
+

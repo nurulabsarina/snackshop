@@ -74,7 +74,7 @@ http://localhost/snackshop/login.php
 
 3. Login using:
 - **Username:** admin
-- **Password:** admin222
+- **Password:** admin123
 
 ### Help
 
@@ -109,3 +109,4 @@ This project is developed for educational purposes as part of IMS566 coursework.
 - Chart.js for data visualizations
 
 - Inspiration from modern admin dashboard structures
+
